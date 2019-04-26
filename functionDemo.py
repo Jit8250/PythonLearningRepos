@@ -2,6 +2,7 @@ def add():
     print("Hello World")
 
 
-add()
-add()
-add()
+def ferenheight_to_celsius(value):
+    c = (value - 32) * 9 / 5
+    return c
+
